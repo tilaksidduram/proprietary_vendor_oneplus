@@ -18,12 +18,9 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/oneplus/bacon/overlay
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     qcrilmsgtunnel \
     shutdownlistener
-
-# Rekt
-#PRODUCT_PACKAGES += \
-#    com.qualcomm.location \
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
